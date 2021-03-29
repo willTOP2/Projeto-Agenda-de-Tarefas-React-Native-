@@ -16,5 +16,5 @@ Depois:
   -> executar o react-native run-android 
   
   
-  obs: Nesse projeto foi utilizado o postgres, junt com a biblioteca knex, tanto 
+  obs: Nesse projeto utilizei o postgres, junto com a biblioteca knex, tanto 
   para o login e para o CRUD (Falta algumas implementação no backend)
