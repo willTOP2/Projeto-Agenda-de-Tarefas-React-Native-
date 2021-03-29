@@ -18,3 +18,38 @@ Depois:
   
   obs: Nesse projeto utilizei o postgres, junto com a biblioteca knex, tanto 
   para o login e para o CRUD (Falta algumas implementação no backend)
+
+--- Importante ---- 
+Caso de erro no bundler ( tipo Unable to load script from assets ‘index.android.bundle’), fazer esse procedimento abaixo:
+
+-> Editar o arquivo do projeto node_modules\metro-config\src\defaults\blacklist.js
+
+Substituir neste arquivo:
+
+var sharedBlacklist = [
+
+/node_modules[/\\]react[/\\]dist[/\\].*/,
+
+/website\/node_modules\/.*/,
+
+/heapCapture\/bundle\.js/,
+
+/.*\/__tests__\/.*/
+
+];
+
+
+
+-> por isso:
+
+var sharedBlacklist = [
+
+/node_modules[\/\\]react[\/\\]dist[\/\\].*/,
+
+/website\/node_modules\/.*/,
+
+/heapCapture\/bundle\.js/,
+
+/.*\/__tests__\/.*/
+
+];
