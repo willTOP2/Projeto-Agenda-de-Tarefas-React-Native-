@@ -1,5 +1,5 @@
 
----------- Backend da aplicação ---------------------
+    -------- Backend da aplicação -----
 
 Exexcutar pasta Backend com o comando:  
     -> npm i para instalar as dependências
@@ -7,7 +7,9 @@ Exexcutar pasta Backend com o comando:
 Depois: 
   -> npm start para excecutar o backend 
   
-----------------   Frontend da aplicação---------------
+  
+    --- Frontend da aplicação ----
+           
  
 Depois executara pasta tasks2020 onde se encontra o Frontend da aplicaçao 
   -> npm i para instalar as dependências
