@@ -9,7 +9,7 @@ Depois:
   
 ----------------   Frontend da aplicação---------------
  
-Depois executar tasks2020 onde se encontra o Frontend da aplicaçao 
+Depois executara pasta tasks2020 onde se encontra o Frontend da aplicaçao 
   -> npm i para instalar as dependências
  
 Depois: 
